@@ -1,6 +1,6 @@
 let index = {
-	init: function () {
-		$("#btn-save").on("click", () => { //function(){}, ()=>{} this를 바인딩하기 위해서!!
+	init: function(){
+		$("#btn-save").on("click", ()=>{ //function(){}, ()=>{} this를 바인딩하기 위해서!!
 			this.save();
 		});
 	},
@@ -34,3 +34,4 @@ let index = {
 		});
 	},
 }
+index.init();
