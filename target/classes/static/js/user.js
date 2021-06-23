@@ -35,3 +35,4 @@ let index = {
 	},
 }
 index.init();
+index.init();
