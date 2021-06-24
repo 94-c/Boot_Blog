@@ -8,11 +8,11 @@
 	<div class="card m-2">
 		<div class="card-body">
 			<h4 class="card-title">${board.title}</h4>
-			<a href="/board/${board.id}" class="btn btn-primary float-right">상세보기</a>
+			<a href="/board/${board.id}" class="btn btn-primary float-right">Details</a>
 		</div>
 	</div>
 	</c:forEach>
-
+	<br><br>
 	<ul class="pagination justify-content-center">
 		<c:choose>
 			<c:when test="${boards.first}">

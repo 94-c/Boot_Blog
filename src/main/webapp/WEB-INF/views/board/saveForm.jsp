@@ -16,8 +16,8 @@
 		</div>
 	</form>
 
-	<button id="btn-save" class="btn btn-primary">Submit</button>
-
+	<button id="btn-save" class="btn btn-primary float-right">Submit</button>
+	<br><br>
 </div>
 
 <script>
