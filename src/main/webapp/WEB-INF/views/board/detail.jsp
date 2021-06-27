@@ -21,9 +21,9 @@
 
 		<div class="form-group float-right">
 			<button class="btn btn-secondary" onclick="history.back()">Home</button>
-			<button id="btn-update" class="btn btn-warning">Modify</button>
 			<c:if test="${board.user.id == principal.user.id}">
-			<button id="btn-delete" class="btn btn-danger">Delete</button>
+				<a href = "/board/${board.id}/updateForm" class="btn btn-warning">Modify</a>
+				<button id="btn-delete" class="btn btn-danger">Delete</button>
 			</c:if>
 		</div>
 		<br/><br/>
