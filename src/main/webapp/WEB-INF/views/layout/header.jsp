@@ -29,7 +29,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
 		<c:choose>
 			<c:when test="${empty principal }">
 				<ul class="navbar-nav">
