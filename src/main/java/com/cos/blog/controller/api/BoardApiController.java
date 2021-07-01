@@ -16,8 +16,6 @@ import com.cos.blog.dto.ResponseDto;
 import com.cos.blog.model.Board;
 import com.cos.blog.service.BoardService;
 
-import javax.servlet.http.HttpServletRequest;
-
 
 @RestController
 public class BoardApiController {

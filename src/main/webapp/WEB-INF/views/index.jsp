@@ -8,7 +8,7 @@
 	<div class="card m-2">
 		<div class="card-body">
 			<h4 class="card-title">${board.title}</h4>
-			<a href="/board/${board.id}" class="btn btn-primary float-right">Details</a>
+			<div style="text-align: right"><a href="/board/${board.id}" class="btn btn-primary">Details</a></div>
 		</div>
 	</div>
 	</c:forEach>
