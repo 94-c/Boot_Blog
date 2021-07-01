@@ -17,8 +17,10 @@
 		</div>
 		
 	</form>
-	
-	<button id="btn-save" class="btn btn-primary">Submit</button>
+
+	<div style="text-align: center">
+		<button id="btn-save" class="btn btn-primary">Submit</button>
+	</div>
 
 </div>
 

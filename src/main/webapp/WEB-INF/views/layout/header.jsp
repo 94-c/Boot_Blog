@@ -33,16 +33,16 @@
 		<c:choose>
 			<c:when test="${empty principal }">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="/auth/loginForm">Login</a></li>
-					<li class="nav-item"><a class="nav-link" href="/auth/joinForm">Sign Up</a></li>
+					<li class="nav-item"><button type="button" class="btn btn-outline-info" onclick="location.href='/auth/loginForm'">Login</button></li>&nbsp;
+					<li class="nav-item"><button type="button" class="btn btn-outline-info" onclick="location.href='/auth/joinForm'">Sign Up</button></li>
 				</ul>
 			</c:when>
 
 			<c:otherwise>
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="/board/saveForm">Writing</a></li>
-					<li class="nav-item"><a class="nav-link" href="/user/updateForm">Profile</a></li>
-					<li class="nav-item"><a class="nav-link" href="/logout">Sign Out</a></li>
+					<li class="nav-item"><button type="button" class="btn btn-outline-info" onclick="location.href='/board/saveForm'">Writer</button></li>&nbsp;
+					<li class="nav-item"><button type="button" class="btn btn-outline-info" onclick="location.href='/user/updateForm'">Profile</button></li>&nbsp;
+					<li class="nav-item"><button type="button" class="btn btn-outline-danger" onclick="location.href='/logout'">Sign Out</button></li>
 				</ul>
 			</c:otherwise>
 		</c:choose>

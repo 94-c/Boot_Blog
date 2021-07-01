@@ -4,7 +4,7 @@ let index = {
 			this.save();
 		});
 		$("#btn-delete").on("click", ()=>{
-			this.deleteById();
+			this.deleteByid();
 		});
 		$("#btn-update").on("click", ()=>{
 			this.update();
@@ -34,7 +34,7 @@ let index = {
 		});
 	},
 
-	deleteById: function(){
+	deleteByid: function(){
 
 		let id = $("#id").text();
 
